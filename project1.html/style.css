@@ -1,0 +1,153 @@
+.b0dy{align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f5f4f4;
+            margin:0;
+            padding :0;
+            background: url(https://wallpapercave.com/wp/wp7571042.png);
+            background-size: cover;
+        background-repeat: no-repeat;
+        }
+
+
+.main{ 
+    display: grid;
+align-items: center;
+justify-content: center;
+gap:20px;
+padding: 20px;
+background-size: auto;
+background: url(https://wallpapercave.com/wp/wp7571042.png);
+border-radius: 10px;
+margin:auto-fit;
+grid-template-columns: repeat(auto-fit,minmax(150px,4fr));
+
+
+}
+.common{
+    background-color: rgb(208, 228, 19);
+    border-radius: 0cap;
+   
+    height: auto;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    image-orientation: flip;
+    margin: auto-fit;
+}
+
+.common img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
+.common h2{
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    height: 5px;   
+}
+.common1{
+    background-color: rgb(237, 129, 13);
+    border-radius: 0cap ;
+    padding: 10px;
+    height: auto;
+    width: 150px;
+    image-orientation: flip;
+    margin: auto-fit;
+    border-radius: 20px;
+}
+.common1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.common1 h2{
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    height: 5px;   
+
+}
+.common2{
+    background-color: rgb(13, 229, 56);
+    border-radius: 0cap ;
+    padding: 10px;
+    height: auto;
+    width: 150px;
+    image-orientation: flip;
+    margin: auto-fit;
+    border-radius: 20px;
+}
+.common2 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.common2 h2{
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    height: 5px;   
+
+}
+.common3{
+    background-color: rgb(13, 143, 229);
+    border-radius: 0cap ;
+    padding: 10px;
+    height: auto;
+    width: 150px;
+    image-orientation: flip;
+    margin: auto-fit;
+    border-radius: 20px;
+}
+.common3 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.common3 h2{
+    text-align: center;
+    padding: 0px;
+    width: 150px;
+    height: 5px;   
+}
+.search{
+    display: flex;
+    border-color: black;
+    height: 50px;
+    width: 500px;
+    border-radius: 20px;
+background-color: rgb(239, 235, 230);
+
+}
+.search img  {
+    padding:10px;
+    cursor: pointer;
+
+}
+.adders{
+    display: flex;
+    height: 50px;
+    width: auto;
+    background-color: aqua;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.adders button{
+     padding: 15px;
+    background-color: rgb(17, 216, 216);
+    border-radius: 30px;
+   background: blue;
+   color: white;
+   text-decoration: none;
+ 
+}
+button:hover{
+    background-color:rgb(226, 122, 17);
+    transform: scale(1.1);
+    
+}
+
